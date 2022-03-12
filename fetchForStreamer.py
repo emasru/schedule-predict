@@ -14,3 +14,5 @@ sub = subprocess.Popen(f"{twitch_path} api get videos -q user_id={streamer_id} -
 json_file = open("video_data.json", "w")
 json_file.write(sub.stdout.read().decode("utf-8"))
 json_file.close()
+
+#TODO get into json structure, pop first if he is live with another query, then save it again

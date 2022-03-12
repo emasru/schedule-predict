@@ -1,4 +1,6 @@
-# Token
+# Token files
 secret.txt
-# JSON created by fetchForStreamer.py
+openai_secret.txt
+# Output files
 video_data.json
+titles.txt
