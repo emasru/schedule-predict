@@ -1,4 +1,6 @@
 # Virtual environment
 venv/
 # Pycache
-__pycache__/ 
+__pycache__/
+# Data files (temporary)
+video_data.json
