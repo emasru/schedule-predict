@@ -1,3 +1,5 @@
+# Fetches the timestamps of all the videos of a streamer, when they start and end as a tuple with unix timestamps
+
 import subprocess # For running the Twitch CLI
 import dateutil.parser # For easy ISO8601 conversion
 import json
