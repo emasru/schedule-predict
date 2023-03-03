@@ -1,5 +1,3 @@
-# 3.5 or higher
-
 import subprocess # For running the Twitch CLI
 import dateutil.parser # For easy ISO8601 conversion
 import json
