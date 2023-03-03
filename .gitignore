@@ -1,9 +1,4 @@
-# Token files
-secret.txt
-openai_secret.txt
-# Output files
-video_data.json
-titles.txt
-yard_titles.txt
 # Virtual environment
 venv/
+# Pycache
+__pycache__/ 
