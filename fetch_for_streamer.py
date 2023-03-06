@@ -12,7 +12,6 @@ from typing import List, Tuple # Type hinting
 
 def convert_duration_time_to_seconds(time_string: str) -> int:
     # Format is 00h00m00s
-    # This function absolutely blows, but it works and I'm too lazy to not accept what copilot gives me
     time_string = time_string.replace("h", ":")
     time_string = time_string.replace("m", ":")
     time_string = time_string.replace("s", "")
@@ -57,5 +56,5 @@ def get_streaming_timestamps(streamer_id: int) -> List[Tuple[int, int]]:
 
 if __name__ == "__main__":
     # ID of streamer to be queried
-    streamer_id = 71092938 # xQc
+    streamer_id = 71092938
     print(get_streaming_timestamps(streamer_id))
